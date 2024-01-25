@@ -1,0 +1,590 @@
+[
+    {
+        "instance": "tsp225",
+        "optimal": 3861.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 4039.0,
+                "scale": 225,
+                "gap": 0.0461020461020461
+            }
+        ]
+    },
+    {
+        "instance": "pr76",
+        "optimal": 108159.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 108313.0,
+                "scale": 76,
+                "gap": 0.0014238297321535888
+            }
+        ]
+    },
+    {
+        "instance": "kroE100",
+        "optimal": 22068.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 22504.0,
+                "scale": 100,
+                "gap": 0.01975711437375385
+            }
+        ]
+    },
+    {
+        "instance": "pr144",
+        "optimal": 58537.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 59411.0,
+                "scale": 144,
+                "gap": 0.014930727574013017
+            }
+        ]
+    },
+    {
+        "instance": "pr124",
+        "optimal": 59030.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 59524.0,
+                "scale": 124,
+                "gap": 0.00836862612231069
+            }
+        ]
+    },
+    {
+        "instance": "pr1002",
+        "optimal": 259045.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 279647.0,
+                "scale": 1002,
+                "gap": 0.07953058348935513
+            }
+        ]
+    },
+    {
+        "instance": "pr136",
+        "optimal": 96772.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 98926.0,
+                "scale": 136,
+                "gap": 0.02225850452610259
+            }
+        ]
+    },
+    {
+        "instance": "d657",
+        "optimal": 48912.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 55892.0,
+                "scale": 657,
+                "gap": 0.14270526660124305
+            }
+        ]
+    },
+    {
+        "instance": "gil262",
+        "optimal": 2378.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 2458.0,
+                "scale": 262,
+                "gap": 0.0336417157275021
+            }
+        ]
+    },
+    {
+        "instance": "rd100",
+        "optimal": 7910.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 8036.0,
+                "scale": 100,
+                "gap": 0.01592920353982301
+            }
+        ]
+    },
+    {
+        "instance": "pcb442",
+        "optimal": 50778.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 52884.0,
+                "scale": 442,
+                "gap": 0.041474654377880185
+            }
+        ]
+    },
+    {
+        "instance": "p654",
+        "optimal": 34643.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 40692.0,
+                "scale": 654,
+                "gap": 0.17460958923880726
+            }
+        ]
+    },
+    {
+        "instance": "rat99",
+        "optimal": 1211.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 1279.0,
+                "scale": 99,
+                "gap": 0.05615194054500413
+            }
+        ]
+    },
+    {
+        "instance": "lin318",
+        "optimal": 42029.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 43513.0,
+                "scale": 318,
+                "gap": 0.03530895334174023
+            }
+        ]
+    },
+    {
+        "instance": "rat783",
+        "optimal": 8806.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 9516.0,
+                "scale": 783,
+                "gap": 0.08062684533272768
+            }
+        ]
+    },
+    {
+        "instance": "kroA100",
+        "optimal": 21282.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 21935.0,
+                "scale": 100,
+                "gap": 0.03068320646555775
+            }
+        ]
+    },
+    {
+        "instance": "u574",
+        "optimal": 36905.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 39369.0,
+                "scale": 574,
+                "gap": 0.06676602086438152
+            }
+        ]
+    },
+    {
+        "instance": "kroC100",
+        "optimal": 20749.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 21465.0,
+                "scale": 100,
+                "gap": 0.03450768711745145
+            }
+        ]
+    },
+    {
+        "instance": "pr299",
+        "optimal": 48191.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 49934.0,
+                "scale": 299,
+                "gap": 0.036168579195285426
+            }
+        ]
+    },
+    {
+        "instance": "berlin52",
+        "optimal": 7542.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 7847.0,
+                "scale": 52,
+                "gap": 0.04044020153805357
+            }
+        ]
+    },
+    {
+        "instance": "fl417",
+        "optimal": 11861.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 13444.0,
+                "scale": 417,
+                "gap": 0.13346260854902622
+            }
+        ]
+    },
+    {
+        "instance": "pr226",
+        "optimal": 80369.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 82457.0,
+                "scale": 226,
+                "gap": 0.02598016648210131
+            }
+        ]
+    },
+    {
+        "instance": "kroA150",
+        "optimal": 26524.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 27341.0,
+                "scale": 150,
+                "gap": 0.030802292263610316
+            }
+        ]
+    },
+    {
+        "instance": "rat195",
+        "optimal": 2323.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 2455.0,
+                "scale": 195,
+                "gap": 0.056823073611709
+            }
+        ]
+    },
+    {
+        "instance": "d198",
+        "optimal": 15780.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 19002.0,
+                "scale": 198,
+                "gap": 0.20418250950570344
+            }
+        ]
+    },
+    {
+        "instance": "u159",
+        "optimal": 42080.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 43322.0,
+                "scale": 159,
+                "gap": 0.029515209125475284
+            }
+        ]
+    },
+    {
+        "instance": "kroB150",
+        "optimal": 26130.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 26896.0,
+                "scale": 150,
+                "gap": 0.029314963643321854
+            }
+        ]
+    },
+    {
+        "instance": "ch150",
+        "optimal": 6528.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 6647.0,
+                "scale": 150,
+                "gap": 0.018229166666666668
+            }
+        ]
+    },
+    {
+        "instance": "d493",
+        "optimal": 35002.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 50707.0,
+                "scale": 493,
+                "gap": 0.448688646363065
+            }
+        ]
+    },
+    {
+        "instance": "eil101",
+        "optimal": 629.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 641.0,
+                "scale": 101,
+                "gap": 0.019077901430842606
+            }
+        ]
+    },
+    {
+        "instance": "st70",
+        "optimal": 675.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 688.0,
+                "scale": 70,
+                "gap": 0.01925925925925926
+            }
+        ]
+    },
+    {
+        "instance": "pr152",
+        "optimal": 73682.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 74274.0,
+                "scale": 152,
+                "gap": 0.008034526750088217
+            }
+        ]
+    },
+    {
+        "instance": "pr107",
+        "optimal": 44303.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 45031.0,
+                "scale": 107,
+                "gap": 0.016432295781324064
+            }
+        ]
+    },
+    {
+        "instance": "rd400",
+        "optimal": 15281.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 15869.0,
+                "scale": 400,
+                "gap": 0.03847915712322492
+            }
+        ]
+    },
+    {
+        "instance": "pr264",
+        "optimal": 49135.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 50445.0,
+                "scale": 264,
+                "gap": 0.026661239442352703
+            }
+        ]
+    },
+    {
+        "instance": "kroB100",
+        "optimal": 22141.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 22878.0,
+                "scale": 100,
+                "gap": 0.03328666275235988
+            }
+        ]
+    },
+    {
+        "instance": "bier127",
+        "optimal": 118282.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 131611.0,
+                "scale": 127,
+                "gap": 0.11268832113085676
+            }
+        ]
+    },
+    {
+        "instance": "ts225",
+        "optimal": 126643.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 129371.0,
+                "scale": 225,
+                "gap": 0.02154086684617389
+            }
+        ]
+    },
+    {
+        "instance": "pr439",
+        "optimal": 107217.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 117127.0,
+                "scale": 439,
+                "gap": 0.09242937220776556
+            }
+        ]
+    },
+    {
+        "instance": "rat575",
+        "optimal": 6773.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 7250.0,
+                "scale": 575,
+                "gap": 0.0704266942270781
+            }
+        ]
+    },
+    {
+        "instance": "eil76",
+        "optimal": 538.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 553.0,
+                "scale": 76,
+                "gap": 0.027881040892193308
+            }
+        ]
+    },
+    {
+        "instance": "kroA200",
+        "optimal": 29368.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 30376.0,
+                "scale": 200,
+                "gap": 0.034323072732225554
+            }
+        ]
+    },
+    {
+        "instance": "ch130",
+        "optimal": 6110.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 6192.0,
+                "scale": 130,
+                "gap": 0.01342062193126023
+            }
+        ]
+    },
+    {
+        "instance": "eil51",
+        "optimal": 426.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 429.0,
+                "scale": 51,
+                "gap": 0.007042253521126761
+            }
+        ]
+    },
+    {
+        "instance": "u724",
+        "optimal": 41910.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 44925.0,
+                "scale": 724,
+                "gap": 0.07193987115246958
+            }
+        ]
+    },
+    {
+        "instance": "lin105",
+        "optimal": 14379.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 14933.0,
+                "scale": 105,
+                "gap": 0.038528409486056056
+            }
+        ]
+    },
+    {
+        "instance": "kroD100",
+        "optimal": 21294.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 22167.0,
+                "scale": 100,
+                "gap": 0.040997464074387154
+            }
+        ]
+    },
+    {
+        "instance": "a280",
+        "optimal": 2579.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 2710.0,
+                "scale": 280,
+                "gap": 0.0507948817371074
+            }
+        ]
+    },
+    {
+        "instance": "kroB200",
+        "optimal": 29437.0,
+        "record": [
+            {
+                "run_idx": 0,
+                "best_cost": 30580.0,
+                "scale": 200,
+                "gap": 0.03882868498828006
+            }
+        ]
+    }
+]
