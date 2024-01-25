@@ -1,0 +1,49 @@
+name: ELG
+use_cuda: True
+cuda_device_num: 3
+logger: no_logger # [wandb, no_logger]
+test_filename: data/vrp100_test_seed1234.pkl
+vrplib_set: X     # [XXL, X]
+load_checkpoint: weights/ELG.pt
+# load_checkpoint:
+training: joint # [joint, only_local, only_global]
+seed: 924
+params:
+  problem_size: 100
+  multiple_width: 100     # The number of multiple rollouts
+  scale_norm: True # [True, False]
+  T: 200000
+  start_steps: 0
+  train_steps: 250000
+  mixed: True # [True, False]
+  train_batch_size: 120
+  test_size: 1000
+  test_batch_size: 100
+  learning_rate: 0.0001
+  log_step: 10000
+  aug_factor: 8
+distribution:
+  data_type: uniform  # cluster, mixed, uniform, mix_three
+  n_cluster: 3
+  n_cluster_mix: 1
+  lower: 0.2
+  upper: 0.8
+  std: 0.07
+model_params:
+  ensemble: True # [True, False]
+  distance_penalty: True # [True, False]
+  positional: True # [True, False]
+  xi: -1
+  local_size: [40]
+  ensemble_size: 1
+  demand: True # [True, False]
+  euclidean: False # [True, False]
+  embedding_dim: 128
+  encoder_layer_num: 6
+  head_num: 8
+  qkv_dim: 16
+  logit_clipping: 50
+  ff_hidden_dim: 512
+  local_att_hidden_dim: 32
+  local_att_head_num: 4
+  local_att_qkv_dim: 8
