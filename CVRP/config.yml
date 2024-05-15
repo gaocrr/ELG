@@ -1,6 +1,6 @@
 name: ELG
 use_cuda: True
-cuda_device_num: 3
+cuda_device_num: 0
 logger: no_logger # [wandb, no_logger]
 test_filename: data/vrp100_test_seed1234.pkl
 vrplib_set: X     # [XXL, X]
@@ -17,7 +17,7 @@ params:
   train_steps: 250000
   mixed: True # [True, False]
   train_batch_size: 120
-  test_size: 1000
+  test_size: 10000
   test_batch_size: 100
   learning_rate: 0.0001
   log_step: 10000

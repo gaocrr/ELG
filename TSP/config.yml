@@ -1,6 +1,6 @@
 name: ELG
 use_cuda: True
-cuda_device_num: 2
+cuda_device_num: 0
 logger: no_logger # [wandb, no_logger]
 test_filename: data/tsp_100_test.pkl
 load_checkpoint: weights/ELG.pt
@@ -16,7 +16,7 @@ params:
   start_steps: 0
   train_steps: 350000
   train_batch_size: 120
-  test_size: 1000
+  test_size: 10000
   test_batch_size: 100
   learning_rate: 0.0001
   log_step: 10000

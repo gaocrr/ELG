@@ -65,11 +65,11 @@ class local_policy_att(nn.Module):
         # shape: (batch, multi, local)
 
         if self.model_params['euclidean'] == True:
-            norm_fac = sorted_dist.max(-1)[0].unsqueeze(-1)
+            norm_fac = (sorted_dist.max(-1)[0].unsqueeze(-1) + 1e-6)
             sorted_dist = torch.take_along_dim(xy[:, :, :, 0], idx, dim=-1) / norm_fac
             sorted_theta = torch.take_along_dim(xy[:, :, :, 1], idx, dim=-1) / norm_fac
         else:
-            sorted_dist = sorted_dist / sorted_dist.max(-1)[0].unsqueeze(-1)
+            sorted_dist = sorted_dist / (sorted_dist.max(-1)[0].unsqueeze(-1) + 1e-6)   # avoid division by zero
             sorted_theta = torch.take_along_dim(theta, idx, dim=-1)
             
         sorted_dist_theta = torch.cat((sorted_dist[:, :, :, None], sorted_theta[:, :, :, None]), dim=-1)
@@ -287,7 +287,7 @@ class TSP_Decoder(nn.Module):
 
             sorted_dist, idx = dist.topk(local_size, dim=-1, largest=False)
             # shape: (batch, multi, local)
-            dist_penalty = - sorted_dist / sorted_dist.max(-1)[0].unsqueeze(-1)
+            dist_penalty = - sorted_dist / (sorted_dist.max(-1)[0].unsqueeze(-1) + 1e-6)
             out_mat = self.model_params['xi'] * torch.ones(cur_dist.shape, device=cur_dist.device)
             score_scaled += out_mat.scatter_(-1, idx, dist_penalty)
 

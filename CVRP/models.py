@@ -76,7 +76,7 @@ class local_policy_att(nn.Module):
             if dist_.isinf().any():
                 dist_[dist_.isinf()] = 0.
             norm_idx = dist_.max(-1)[0] != 0
-            norm_fac = dist_[norm_idx].max(-1)[0].unsqueeze(-1)
+            norm_fac = dist_[norm_idx].max(-1)[0].unsqueeze(-1) + 1e-6    # avoid division by zero
 
             idx += 1
             # shape: (batch, multi, local)
@@ -108,10 +108,11 @@ class local_policy_att(nn.Module):
         
         if norm_idx is None:
             norm_idx = sorted_dist.max(-1)[0] != 0
-            sorted_dist[norm_idx] = sorted_dist[norm_idx] / sorted_dist[norm_idx].max(-1)[0].unsqueeze(-1)
+            norm_fac = sorted_dist[norm_idx].max(-1)[0].unsqueeze(-1) + 1e-6    # avoid division by zero
+            sorted_dist[norm_idx] = sorted_dist[norm_idx] / norm_fac
             if self.model_params['euclidean'] == True:
-                sorted_x[norm_idx] = sorted_x[norm_idx] / sorted_dist[norm_idx].max(-1)[0].unsqueeze(-1)
-                sorted_y[norm_idx] = sorted_y[norm_idx] / sorted_dist[norm_idx].max(-1)[0].unsqueeze(-1)
+                sorted_x[norm_idx] = sorted_x[norm_idx] / norm_fac
+                sorted_y[norm_idx] = sorted_y[norm_idx] / norm_fac
         else:
             sorted_dist[norm_idx] = sorted_dist[norm_idx] / norm_fac
             if self.model_params['euclidean'] == True:
